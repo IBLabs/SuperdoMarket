@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		177D2F9E55DD5ABB47475FD4 /* Pods_SuperdoMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3451C8CEEBE7181C5B148A8 /* Pods_SuperdoMarket.framework */; };
 		A8BE06F121A401E9009714F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE06F021A401E9009714F2 /* AppDelegate.swift */; };
-		A8BE06F321A401E9009714F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE06F221A401E9009714F2 /* ViewController.swift */; };
+		A8BE06F321A401E9009714F2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE06F221A401E9009714F2 /* MainViewController.swift */; };
 		A8BE06F621A401E9009714F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BE06F421A401E9009714F2 /* Main.storyboard */; };
 		A8BE06F821A401EA009714F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BE06F721A401EA009714F2 /* Assets.xcassets */; };
 		A8BE06FB21A401EA009714F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BE06F921A401EA009714F2 /* LaunchScreen.storyboard */; };
+		A8BE070321A407A8009714F2 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE070221A407A8009714F2 /* GroceryItem.swift */; };
+		A8BE070521A413B6009714F2 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE070421A413B6009714F2 /* UIColorExtensions.swift */; };
+		A8BE070721A4244E009714F2 /* GroceryItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE070621A4244E009714F2 /* GroceryItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4445B727A0D489648D163D9A /* Pods-SuperdoMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperdoMarket.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperdoMarket/Pods-SuperdoMarket.release.xcconfig"; sourceTree = "<group>"; };
 		A8BE06ED21A401E9009714F2 /* SuperdoMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperdoMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BE06F021A401E9009714F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8BE06F221A401E9009714F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8BE06F221A401E9009714F2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A8BE06F521A401E9009714F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8BE06F721A401EA009714F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8BE06FA21A401EA009714F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8BE06FC21A401EA009714F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BE070221A407A8009714F2 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		A8BE070421A413B6009714F2 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		A8BE070621A4244E009714F2 /* GroceryItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemViewController.swift; sourceTree = "<group>"; };
+		AE638EC147E7B9E017093522 /* Pods-SuperdoMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperdoMarket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperdoMarket/Pods-SuperdoMarket.debug.xcconfig"; sourceTree = "<group>"; };
+		E3451C8CEEBE7181C5B148A8 /* Pods_SuperdoMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperdoMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177D2F9E55DD5ABB47475FD4 /* Pods_SuperdoMarket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				A8BE06EF21A401E9009714F2 /* SuperdoMarket */,
 				A8BE06EE21A401E9009714F2 /* Products */,
+				BC2D4F58DA16D600813C1A5D /* Pods */,
+				C77855A9C078CBD5BFBF75DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,33 @@
 			isa = PBXGroup;
 			children = (
 				A8BE06F021A401E9009714F2 /* AppDelegate.swift */,
-				A8BE06F221A401E9009714F2 /* ViewController.swift */,
+				A8BE070221A407A8009714F2 /* GroceryItem.swift */,
+				A8BE06F221A401E9009714F2 /* MainViewController.swift */,
+				A8BE070621A4244E009714F2 /* GroceryItemViewController.swift */,
+				A8BE070421A413B6009714F2 /* UIColorExtensions.swift */,
 				A8BE06F421A401E9009714F2 /* Main.storyboard */,
 				A8BE06F721A401EA009714F2 /* Assets.xcassets */,
 				A8BE06F921A401EA009714F2 /* LaunchScreen.storyboard */,
 				A8BE06FC21A401EA009714F2 /* Info.plist */,
 			);
 			path = SuperdoMarket;
+			sourceTree = "<group>";
+		};
+		BC2D4F58DA16D600813C1A5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE638EC147E7B9E017093522 /* Pods-SuperdoMarket.debug.xcconfig */,
+				4445B727A0D489648D163D9A /* Pods-SuperdoMarket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C77855A9C078CBD5BFBF75DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3451C8CEEBE7181C5B148A8 /* Pods_SuperdoMarket.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8BE06FF21A401EA009714F2 /* Build configuration list for PBXNativeTarget "SuperdoMarket" */;
 			buildPhases = (
+				B145D92311F5C6834BA04B23 /* [CP] Check Pods Manifest.lock */,
 				A8BE06E921A401E9009714F2 /* Sources */,
 				A8BE06EA21A401E9009714F2 /* Frameworks */,
 				A8BE06EB21A401E9009714F2 /* Resources */,
+				E9994FD13A8F7C7D6FAEFA22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +165,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B145D92311F5C6834BA04B23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperdoMarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9994FD13A8F7C7D6FAEFA22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SuperdoMarket/Pods-SuperdoMarket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperdoMarket/Pods-SuperdoMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8BE06E921A401E9009714F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8BE06F321A401E9009714F2 /* ViewController.swift in Sources */,
+				A8BE06F321A401E9009714F2 /* MainViewController.swift in Sources */,
+				A8BE070321A407A8009714F2 /* GroceryItem.swift in Sources */,
 				A8BE06F121A401E9009714F2 /* AppDelegate.swift in Sources */,
+				A8BE070521A413B6009714F2 /* UIColorExtensions.swift in Sources */,
+				A8BE070721A4244E009714F2 /* GroceryItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +365,7 @@
 		};
 		A8BE070021A401EA009714F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE638EC147E7B9E017093522 /* Pods-SuperdoMarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +383,7 @@
 		};
 		A8BE070121A401EA009714F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4445B727A0D489648D163D9A /* Pods-SuperdoMarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
